@@ -14,7 +14,7 @@
     font-size: 3rem;
     cursor: pointer;
     @media (max-width:900px){
-        font-size: 2em;
+        font-size: 2.5rem;
     }
    }
 
@@ -110,7 +110,7 @@
         @media (max-width:900px){
             display: block;
             margin: 0 0 0 3em;
-            font-size: 2em;
+            font-size: 3em;
             cursor: pointer;
             transition: 0.5s;
 
@@ -134,28 +134,28 @@
         a {
             padding: 8px 32px 8px 20px;
             text-decoration: none;
-            font-size: 0.8rem;
+            font-size: 1.5rem;
             color: #818181;
             display: block;
             transition: 0.3s;
-            margin-top: 5px;
+            margin-top: 10px;
             display: flex;
-            gap: 3px;
+            gap: 10px;
           }
         a:hover{
             color: black;
         }
           .nav2{
-            margin: 20px 10px;
+            margin: 40px 25px;
 
             a{
                 display: flex;
                 justify-content: center;
-                margin-top: 5px;
+                margin-top: 10px;
                 border-radius: 15px;
               }
               a:hover{
-                border: 1px solid hsl(0, 0%, 41%);
+                border: 2px solid hsl(0, 0%, 41%);
                 color: black;
             } 
           }
@@ -176,7 +176,7 @@
             margin-left: 1em;
 
             a{
-                gap: 5px;
+                gap: 10px;
                 margin-top: 0;
                 border-radius: 10px;
             }
